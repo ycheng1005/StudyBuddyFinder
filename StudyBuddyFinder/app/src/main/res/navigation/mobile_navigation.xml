@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_findbuddy">
+
+    <fragment
+        android:id="@+id/navigation_findbuddy"
+        android:name="my.edu.tarc.studybuddyfinder.ui.find_buddy.FindBuddyFragment"
+        android:label="@string/title_findBuddy"
+        tools:layout="@layout/fragment_findbuddy" />
+
+    <fragment
+        android:id="@+id/navigation_chatroom"
+        android:name="my.edu.tarc.studybuddyfinder.ui.book_room.BookRoomFragment"
+        android:label="@string/title_chatroom"
+        tools:layout="@layout/fragment_chatroom" />
+
+    <fragment
+        android:id="@+id/navigation_bookRoom"
+        android:name="my.edu.tarc.studybuddyfinder.ui.chatroom.ChatroomFragment"
+        android:label="@string/title_bookRoom"
+        tools:layout="@layout/fragment_bookroom" />
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="my.edu.tarc.studybuddyfinder.fragment_payment"
+        android:label="@string/title_payment"
+        tools:layout="@layout/fragment_payment" />
+</navigation>
