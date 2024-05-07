@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Study Buddy Finder</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_findBuddy">Find Buddy</string>
+    <string name="title_chatroom">Chatroom</string>
+    <string name="title_bookRoom">Book Room</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_payment">Payment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_payment">Hello blank fragment</string>
 </resources>

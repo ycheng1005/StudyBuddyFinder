@@ -3,23 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_findbuddy">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="my.edu.tarc.studybuddyfinder.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_findbuddy"
+        android:name="my.edu.tarc.studybuddyfinder.ui.find_buddy.FindBuddyFragment"
+        android:label="@string/title_findBuddy"
+        tools:layout="@layout/fragment_findbuddy" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="my.edu.tarc.studybuddyfinder.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_chatroom"
+        android:name="my.edu.tarc.studybuddyfinder.ui.book_room.BookRoomFragment"
+        android:label="@string/title_chatroom"
+        tools:layout="@layout/fragment_chatroom" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="my.edu.tarc.studybuddyfinder.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_bookRoom"
+        android:name="my.edu.tarc.studybuddyfinder.ui.chatroom.ChatroomFragment"
+        android:label="@string/title_bookRoom"
+        tools:layout="@layout/fragment_bookroom" />
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="my.edu.tarc.studybuddyfinder.fragment_payment"
+        android:label="@string/title_payment"
+        tools:layout="@layout/fragment_payment" />
 </navigation>

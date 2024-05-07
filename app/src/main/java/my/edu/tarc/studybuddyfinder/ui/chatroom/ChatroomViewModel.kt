@@ -1,10 +1,10 @@
-package my.edu.tarc.studybuddyfinder.ui.notifications
+package my.edu.tarc.studybuddyfinder.ui.chatroom
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class ChatroomViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is notifications Fragment"
